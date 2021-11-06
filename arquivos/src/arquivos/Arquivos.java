@@ -12,18 +12,18 @@ public class Arquivos {
 		
 		Pessoa pessoa1 = new Pessoa();
 		pessoa1.setEmail("pessoa1@gmial.com");
-		pessoa1.setIdade("19");
+		pessoa1.setIdade(19);
 		pessoa1.setNome("Joao pedro");
 		
 		Pessoa pessoa2 = new Pessoa();
 		pessoa2.setEmail("pessoa2@gmial.com");
-		pessoa2.setIdade("20");
+		pessoa2.setIdade(20);
 		pessoa2.setNome("MESSI");
 		
 		
 		Pessoa pessoa3 = new Pessoa();
 		pessoa3.setEmail("pessoa3@gmial.com");
-		pessoa3.setIdade("30");
+		pessoa3.setIdade(30);
 		pessoa3.setNome("CR7");
 		
 		List<Pessoa> pessoas = new ArrayList<Pessoa>();
@@ -33,7 +33,7 @@ public class Arquivos {
 		
 		
 		
-		File arquivo = new File("C:\\Users\\joao pedro\\eclipse-workspace\\arquivos\\src\\arquivos\\Arquivos.jav");
+		File arquivo = new File("C:\\Users\\joao pedro\\git\\arquivos\\arquivos\\src\\arquivos\\Arquivos.csv");
 		
 		if(!arquivo.exists()) {
 			arquivo.createNewFile();
